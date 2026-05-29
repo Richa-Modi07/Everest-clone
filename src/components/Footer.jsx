@@ -28,7 +28,7 @@ function Footer() {
             to={"/"}
             className="font-semibold w-fit h-fit text-2xl lg:text-3xl p-1 text-white bg-red-600 rounded"
           >
-            EVEREST
+            LOGO
           </Link>
 
           <div

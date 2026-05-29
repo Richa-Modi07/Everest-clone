@@ -1,24 +1,23 @@
 import React from "react";
 import AnimationButton from "./AnimationButton";
-import RasamRice from "../assets/Rasam-Rice-1920x1281-1.jpg.webp";
 
 function RecipeSection() {
   const recipes = [
     {
-      img: RasamRice,
+      img: "",
       title: "Rasam Rice",
     },
     {
-      img: RasamRice,
+      img: "",
       title: "Rasam Rice",
       highlight: true,
     },
     {
-      img: RasamRice,
+      img: "",
       title: "Rasam Rice",
     },
     {
-      img: RasamRice,
+      img: "",
       title: "Rasam Rice",
     },
   ];
@@ -42,7 +41,7 @@ function RecipeSection() {
               <img
                 src={item.img}
                 alt={item.title}
-                className="h-80 object-cover transition-all duration-700 group-hover:shadow-2xl rounded-lg"
+                className="h-80 border object-cover transition-all duration-700 group-hover:shadow-2xl rounded-lg"
               />
               <div className="w-fit relative py-2 px-5 text-2xl sm:text-3xl  lg:text-4xl overflow-hidden">
                 <span className="absolute inset-0 w-0 bg-red-600  transition-all duration-700 group-hover:w-full"></span>
