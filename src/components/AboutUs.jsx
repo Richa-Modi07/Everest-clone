@@ -8,21 +8,22 @@ function AboutUs() {
   return (
     <section className="w-full max-w-7xl mx-auto py-12 lg:py-20 px-4 lg:px-16">
       <div className="flex flex-col md:flex-row gap-5 items-center ">
-        <div className="flex-1 grid grid-cols-6 grid-rows-2 gap-2 min-h-50 min-w-100">
+
+        <div className="flex-1 grid grid-cols-6 grid-rows-2 gap-2 ">
           <img
-            src=""
+            src={img1}
             className="col-span-3 row-span-2 w-full h-full transition-transform duration-300 hover:scale-110 ease-out "
           />
           <img
-            src=""
+            src={img2}
             className="col-span-3 col-start-4 w-full h-full transition-transform duration-300 hover:scale-110 ease-out"
           />
           <img
-            src=""
+            src={img3}
             className="col-span-2 col-start-4 w-full h-full transition-transform duration-300 hover:scale-110 ease-out"
           />
           <img
-            src=""
+            src={img4}
             className="w-full h-full transition-transform duration-300 hover:scale-110 ease-out"
           />
         </div>

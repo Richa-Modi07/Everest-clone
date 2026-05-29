@@ -44,7 +44,7 @@ function Navbar() {
           to={"/"}
           className="font-semibold text-2xl lg:text-3xl p-1 text-white bg-red-600 rounded"
         >
-          LOGO
+          EVEREST
         </Link>
 
         {/* larger menu list */}
@@ -86,7 +86,7 @@ function Navbar() {
               to={"/"}
               className="font-semibold text-xl p-1 text-white bg-red-600 rounded"
             >
-              LOGO
+              EVEREST
             </Link>
             <div
               className="text-4xl text-red-600 cursor-pointer"
